@@ -1,0 +1,15 @@
+.galleryList {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.imageCard {
+    display: block;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
