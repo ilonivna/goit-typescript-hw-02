@@ -1,5 +1,6 @@
+import { FC } from "react";
 
-export default function ErrorMessage() {
+export const ErrorMessage: FC = () => {
     return (
         <p>Sorry, an error has occured, please reload the page!</p>
     )
