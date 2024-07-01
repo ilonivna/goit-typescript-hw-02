@@ -5,7 +5,7 @@ interface ImageCardProps {
     urls: {
         small: string;
     };
-    description: string | undefined;
+    description: string | null;
     onClick: (small: string) => void;
 }
 
@@ -18,7 +18,7 @@ export const ImageCard: FC<ImageCardProps> = ({ urls: { small }, description, on
     }
     return (
         <div>
-  <img src={small} alt={description} onClick={handleClick}/>
+  <img src={small} onClick={handleClick}/>
 </div>
     )
 }
